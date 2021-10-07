@@ -1,0 +1,309 @@
+
+body {
+  
+    animation-name: show;
+    animation-duration: 4s;
+    
+}
+
+@keyframes show {
+    
+    0% {
+        opacity: 0; background: transparent;
+    }
+    
+    100% {
+        
+        opacity: 1;
+    } 
+    
+}
+
+
+.navbar-brand {
+  
+    animation-name: nombre;
+    
+    animation-iteration-count: infinite; 
+    
+    animation-duration: 2s;
+    
+}
+
+@keyframes nombre {
+    
+    0% {
+        opacity: 1; 
+    }
+    
+    100% {
+        
+        opacity: 0.6;
+    } 
+    
+}
+
+
+.contacto {
+  
+    animation-name: contact;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    
+}
+
+
+.navbar {background-color: black;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {color: darkgrey; font-family: 'DM Sans', sans-serif;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {color: red;}
+
+.navbar-expand-lg .navbar-brand {color: red;
+                                font-family: 'Bebas Neue', cursive;
+                                font-size: 30px;}
+
+.slider {margin-top: 10px;}
+
+h1 { padding: 20px;
+    font-family: 'Bebas Neue', cursive;
+        
+}
+
+h2 { margin-top: 10px;}
+
+
+.news {padding: 20px;}
+
+
+.txt {font-family: 'DM Sans', sans-serif;
+}
+
+.txt a {
+    color:#ad82d2;
+}
+
+
+.gal {
+color: black;
+padding: 20px;}
+
+
+.news1 img {
+width: 100%;
+}
+
+
+.news2 img { 
+width: 100%;
+}
+
+.foto1 img {width: 100%;}
+
+.foto1 img:hover {transform: scale(0.9);}
+
+.foto1 img {transition-duration: 1s;
+transition-delay: 0s;
+transition-property: all;
+transition-timing-function: ease;}
+
+.foto2 img {width: 100%;}
+
+.foto2 img:hover {transform: scale(0.9);}
+
+.foto2 img {transition-duration: 1s;
+transition-delay: 0s;
+transition-property: all;
+transition-timing-function: ease;}
+
+.foto3 img {width: 100%;}
+
+.foto3 img:hover {transform: scale(0.9);}
+
+.foto3 img {transition-duration: 1s;
+transition-delay: 0s;
+transition-property: all;
+transition-timing-function: ease;}
+
+.foto4 img {width: 100%;}
+
+.foto4 img:hover {transform: scale(0.9);}
+
+.foto4 img {transition-duration: 1s;
+transition-delay: 0s;
+transition-property: all;
+transition-timing-function: ease;}
+
+.foto3 {margin-top: 10px;}
+
+.foto4 {margin-top: 10px;}
+
+body {
+    background-color: whitesmoke;
+    font-size: 21px;
+    }
+
+
+.columnas {
+    display: flex;
+}
+
+.foto img {
+    width: 50%; border-radius: 100pt;
+}
+
+.alexa {
+    padding: 10px;
+    width: 60%;
+    color: white;
+    
+}
+.nombre {
+    color: white;
+}
+
+.filmografia a {
+    text-decoration: none;
+    color:#ad82d2;
+}
+
+
+.intereses a {
+    text-decoration: none;
+    color:#ad82d2;
+}
+
+.prof a {
+    text-decoration: none;
+    color:#ad82d2;
+}
+
+
+.nombre a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+---- Artistas ----
+
+
+#wrapper { width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.contenedor {
+padding: 15px;
+margin-bottom: 30px;
+margin-top: 30px;
+
+
+}
+
+.contenedor {
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.contenedor h1 { font-family: 'Bebas Neue', cursive;}
+
+.contenedor p {
+    
+    font-family: font-family: 'Courier Prime', monospace; 
+    font-size: 19px;
+}
+
+.contenedormedio h1 { font-family: 'Bebas Neue', cursive;}
+
+.contenedormedio p {
+    
+    font-family: font-family: 'Courier Prime', monospace; 
+    font-size: 19px;
+}
+
+.contenedor:hover {
+   
+    transform: scale(0.9);
+   
+}
+
+
+.textoCaja {width: 70%;
+float: right;
+font-size: 30px;
+margin-top: 60px;
+}
+
+.imgCaja {width: 30%;
+float: right;
+}
+
+.contenedormedio {
+padding: 15px;
+margin-bottom: 30px;
+margin-top: 30px;
+
+}
+
+.contenedormedio {
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+.contenedormedio:hover {
+    transform: scale(0.9);
+}
+
+.textoCajamedio {width: 70%;
+    float: left;
+    font-size: 30px;
+    margin-top: 60px;
+    text-align: end;
+}
+
+.imgCajamedio {width: 30%;
+float: left;
+}
+
+.imgCajamedio img {
+width: 60%;
+border-radius: 30% 10% 70% 50%;;    
+
+}
+
+.imgCaja img {
+width: 60%;
+border-radius: 10% 30% 50% 70%;    
+
+}
+
+
+.limpiarFloat {clear: both;
+} 
+
+
+
+footer {background-color: red;
+padding: 20px;
+width: 100%;
+align-self: flex-end;
+clear: both;
+}
+
+
+footer p {font-family: 'DM Sans', sans-serif; color: white; text-align: center;
+}
+
+form {font-family: 'DM Sans', sans-serif;
+    
+}
